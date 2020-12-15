@@ -3,12 +3,13 @@
 :root {
     --primary-color: #064E3B;
     --dark-gray: #4B5563;
-    --off-white: #F3F4F6;
+    --off-white: #ecf3eb;
 }
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
     margin: 0px;
+    /**text-align: center;**/
 }
 
 hr {
