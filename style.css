@@ -16,6 +16,11 @@ hr {
     margin: 2rem 0rem;
 }
 
+/** spaces **/
+.margin-md{
+    margin: 2rem;
+}
+
 /** container **/
 .container {
     padding: 0rem 1rem;
@@ -28,6 +33,7 @@ hr {
 
 /**links**/
 .link {
+    box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
@@ -67,6 +73,7 @@ hr {
 
 .navigation .nav-brand {
     font-weight: bold;
+    font-size: 1.5rem;
 }
 
 .navigation .nav-pills {
@@ -85,11 +92,12 @@ hr {
 
 .hero {
     padding: 2rem;
+    padding-top: 5rem;
     text-align: center;
 }
 
 .hero .hero-img {
-    max-width: 450px;
+    max-width: 37%;
     display: block;
     margin: auto;
 }
@@ -103,6 +111,8 @@ hr {
 
 .section{
     padding: 1.5rem;
+    text-align: center;
+    border-radius: 3rem;
 }
 
 .section h3 {
@@ -126,6 +136,10 @@ hr {
 
 .footer .link{
     color: white;
+}
+
+.footer .footer-header{
+    font-size: large;
 }
 
 .footer ul{
